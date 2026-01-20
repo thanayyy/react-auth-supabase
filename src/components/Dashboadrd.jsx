@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 const Dashboadrd = () => {
   const { session, signOut } = UserAuth();
   const navigate = useNavigate();
-  console.log(session);
 
   const handleSignOut = async (e) => {
     e.preventDefault();
